@@ -1,0 +1,3 @@
+guard :bower_rails do
+  watch('Bowerfile')
+end
