@@ -1,9 +1,8 @@
 # encoding: utf-8
-puts "-------------------"
 require 'guard'
 
 module Guard
-  class Bower::Rails < Plugin
+  class BowerRails < Plugin
     def initialize(options = {})
       super
     end
